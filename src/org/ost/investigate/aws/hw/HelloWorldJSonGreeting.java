@@ -31,5 +31,6 @@ public class HelloWorldJSonGreeting implements RequestStreamHandler {
         responseJson.put("body", responseBody.toString());
         writer.write(responseJson.toJSONString());
         writer.close();
+
     }
 }
